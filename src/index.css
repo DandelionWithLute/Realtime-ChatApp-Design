@@ -11,10 +11,70 @@ body {
   align-items: center;
   justify-content: center;
   display: flex;
+  height: 100vh;
+  width: 100%;
 }
 
-.container{
-  width: 90vh;
+.container {
+  display: flex;
+  width: 90vw;
   height: 90vh;
-  background-color: rebeccapurple;
+  backdrop-filter: blur(19px) saturate(180%);
+  border: solid 1px black;
+  border-radius: 5px;
+  color: aliceblue;
+  box-shadow: 3px 3px 0.4em lightcyan, -3px -3px 0.4em lightcyan;
+  .chatList {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+    padding: 25px;
+    .userCard {
+      width: 100%;
+      height: 36px;
+      /* below is for testing */
+      /* border: 1px solid black; */
+      border-radius: 5px;
+      display: flex;
+      min-width: 250px;
+      max-width: 300px;
+      /* margin-top: 30px; */
+      /* margin-left: 25px;
+      margin-right: 25px; */
+
+      img {
+        border-radius: 50%;
+      }
+      .userName {
+        display: flex;
+        margin-left: 10px;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+      }
+      .userIcons {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        gap: 5px;
+        img{
+          height: 24px;
+        }
+      }
+    }
+  }
+  .chatContainer {
+    flex: 2;
+  }
+  .chatDetails {
+    flex: 1;
+  }
 }
+
+/* @media only screen and (min-width: 768px) {
+  .chatList {
+    min-width: 144px;
+  }
+} */
