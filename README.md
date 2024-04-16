@@ -17,3 +17,4 @@ feasibility
 可行性，可能性
 
 box-shadow: 3px 3px .4em lightcyan,-3px -3px .4em lightcyan;
+can do most job except for 2 mere points
