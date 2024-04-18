@@ -18,3 +18,5 @@ feasibility
 
 box-shadow: 3px 3px .4em lightcyan,-3px -3px .4em lightcyan;
 can do most job except for 2 mere points
+
+background-color: rgb(128, 128, 128,0.5);

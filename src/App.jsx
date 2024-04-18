@@ -3,18 +3,39 @@ const App = () => {
     <div className="container">
       {/* ChatList */}
       <div className="chatList">
-        <div className="userCard">
-          <img src="avatar.png" className="" />
-          <div className="userName">
-            <a>Dandelion</a>
+        <div className="chatListInner">
+          {/* userCardContainer */}
+          <div className="userCard">
+            <div className="avatarContainer">
+              <img src="avatar.png" className="" />
+            </div>
+            <div className="userName">
+              <a>Dandelion</a>
+            </div>
+            <div className="userIcons">
+              <img src="more.png" />
+              <img src="video.png" />
+              <img src="edit.png" />
+            </div>
           </div>
-          <div className="userIcons">
-            <img src="more.png" />
-            <img src="video.png" />
-            <img src="edit.png" />
+          {/* searchBarContainer */}
+          <div className="searchBarContainer">
+            <div className="searchBarContainerSearch">
+              <img src="search.png" />
+              <input placeholder="Search" />
+            </div>
+            <div className="searchBarContainerPlusContainer">
+              <div className="searchBarContainerPlus">
+                <img src="plus.png" />
+              </div>
+            </div>
           </div>
+          {/* userContactListContainer */}
+          <div className="userContactListContainer">123</div>
         </div>
-        <div className="">{/* <img src="plus.png" /> */}</div>
+      </div>
+      <div className="mainVerticalSeparator">
+        <div className="mainVerticalSeparatorMiddle"></div>
       </div>
       {/* ChatContainer */}
       <div className="chatContainer">chatContainer</div>

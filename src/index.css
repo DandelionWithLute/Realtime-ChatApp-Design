@@ -28,8 +28,10 @@ body {
     flex: 1;
     display: flex;
     justify-content: center;
-
     padding: 25px;
+    .chatListInner {
+      width: 100%;
+    }
     .userCard {
       width: 100%;
       height: 36px;
@@ -38,13 +40,15 @@ body {
       border-radius: 5px;
       display: flex;
       min-width: 250px;
-      max-width: 300px;
+      max-width: 400px;
       /* margin-top: 30px; */
       /* margin-left: 25px;
       margin-right: 25px; */
-
-      img {
-        border-radius: 50%;
+      .avatarContainer {
+        display: flex;
+        img {
+          border-radius: 50%;
+        }
       }
       .userName {
         display: flex;
@@ -58,11 +62,53 @@ body {
         align-items: center;
         justify-content: flex-end;
         width: 100%;
-        gap: 5px;
-        img{
+        gap: 10px;
+        img {
           height: 24px;
         }
       }
+    }
+    .searchBarContainer {
+      display: flex;
+      height: 36px;
+      margin-top: 50px;
+      gap: 20px;
+      input {
+        background: transparent;
+        border: none;
+        color: azure;
+      }
+      input::placeholder {
+        color: white;
+      }
+      .searchBarContainerSearch {
+        width: 80%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        padding: 5px;
+        border-radius: 10px;
+        gap: 11px;
+      }
+      .searchBarContainerPlusContainer {
+        width: 20%;
+        display: flex;
+        justify-content: flex-end;
+        .searchBarContainerPlus {
+          display: flex;
+          background-color: rgba(0, 0, 0, 0.5);
+          align-items: center;
+          justify-content: center;
+          width: 36px;
+          height: 36px;
+          border-radius: 10px;
+          img {
+            height: 26px;
+          }
+        }
+      }
+    }
+    .userContactListContainer {
+      margin-top: 50px;
     }
   }
   .chatContainer {
@@ -78,3 +124,17 @@ body {
     min-width: 144px;
   }
 } */
+
+/* .chatListInner {
+  display: flex;
+  flex-direction: column;
+} */
+
+.mainVerticalSeparator {
+  width: 1px;
+  margin-top: 1vh;
+  .mainVerticalSeparatorMiddle {
+    background-color: white;
+    height: 88vh;
+  }
+}
