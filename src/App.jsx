@@ -37,14 +37,12 @@ const App = () => {
               <div className="avatarContainer">
                 <img src="avatar.png" className="" />
               </div>
-              <div className="userName">
-                <a>Dandelion</a>
+              <div className="userNameAndDescContainer">
+                <div className="userName">
+                  <a>Dandelion</a>
+                </div>
+                <div className="desc">hello</div>
               </div>
-              {/* <div className="userIcons">
-                <img src="more.png" />
-                <img src="video.png" />
-                <img src="edit.png" />
-              </div> */}
             </div>
             {/* 2 */}
             <div className="userCard">
@@ -57,25 +55,18 @@ const App = () => {
                 </div>
                 <div className="desc">hello</div>
               </div>
-              {/* <div className="userIcons">
-                <img src="more.png" />
-                <img src="video.png" />
-                <img src="edit.png" />
-              </div> */}
             </div>
             {/* 3 */}
             <div className="userCard">
               <div className="avatarContainer">
                 <img src="avatar.png" className="" />
               </div>
-              <div className="userName">
-                <a>Dandelion</a>
+              <div className="userNameAndDescContainer">
+                <div className="userName">
+                  <a>Dandelion</a>
+                </div>
+                <div className="desc">hello</div>
               </div>
-              {/* <div className="userIcons">
-                <img src="more.png" />
-                <img src="video.png" />
-                <img src="edit.png" />
-              </div> */}
             </div>
           </div>
         </div>
