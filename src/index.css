@@ -114,6 +114,7 @@ body {
       flex-direction: column;
       margin-top: 50px;
       gap: 10px;
+      overflow: scroll;
       .userCard {
         /* margin-top: 24px;
         margin-bottom: 1px; */
