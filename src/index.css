@@ -17,6 +17,7 @@ body {
 
 .container {
   display: flex;
+  overflow: hidden;
   width: 90vw;
   height: 90vh;
   backdrop-filter: blur(19px) saturate(180%);
@@ -110,11 +111,16 @@ body {
       }
     }
     .userContactListContainer {
+      height: 70vh;
       display: flex;
       flex-direction: column;
       margin-top: 50px;
       gap: 10px;
-      overflow: scroll;
+      overflow-y: scroll;
+      scroll-snap-type: proximity;
+      scroll-behavior: smooth;
+      scroll-snap-align:initial;      
+      scrollbar-width:none;
       .userCard {
         /* margin-top: 24px;
         margin-bottom: 1px; */

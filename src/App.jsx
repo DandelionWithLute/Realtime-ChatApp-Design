@@ -67,6 +67,111 @@ const App = () => {
                 </div>
                 <div className="desc">hello</div>
               </div>
+            </div>{/* 1 */}
+            <div className="userCard">
+              <div className="avatarContainer">
+                <img src="avatar.png" className="" />
+              </div>
+              <div className="userNameAndDescContainer">
+                <div className="userName">
+                  <a>Dandelion</a>
+                </div>
+                <div className="desc">hello</div>
+              </div>
+            </div>
+            {/* 2 */}
+            <div className="userCard">
+              <div className="avatarContainer">
+                <img src="avatar.png" className="" />
+              </div>
+              <div className="userNameAndDescContainer">
+                <div className="userName">
+                  <a>Dandelion</a>
+                </div>
+                <div className="desc">hello</div>
+              </div>
+            </div>
+            {/* 3 */}
+            <div className="userCard">
+              <div className="avatarContainer">
+                <img src="avatar.png" className="" />
+              </div>
+              <div className="userNameAndDescContainer">
+                <div className="userName">
+                  <a>Dandelion</a>
+                </div>
+                <div className="desc">hello</div>
+              </div>
+            </div>{/* 1 */}
+            <div className="userCard">
+              <div className="avatarContainer">
+                <img src="avatar.png" className="" />
+              </div>
+              <div className="userNameAndDescContainer">
+                <div className="userName">
+                  <a>Dandelion</a>
+                </div>
+                <div className="desc">hello</div>
+              </div>
+            </div>
+            {/* 2 */}
+            <div className="userCard">
+              <div className="avatarContainer">
+                <img src="avatar.png" className="" />
+              </div>
+              <div className="userNameAndDescContainer">
+                <div className="userName">
+                  <a>Dandelion</a>
+                </div>
+                <div className="desc">hello</div>
+              </div>
+            </div>
+            {/* 3 */}
+            <div className="userCard">
+              <div className="avatarContainer">
+                <img src="avatar.png" className="" />
+              </div>
+              <div className="userNameAndDescContainer">
+                <div className="userName">
+                  <a>Dandelion</a>
+                </div>
+                <div className="desc">hello</div>
+              </div>
+            </div>{/* 1 */}
+            <div className="userCard">
+              <div className="avatarContainer">
+                <img src="avatar.png" className="" />
+              </div>
+              <div className="userNameAndDescContainer">
+                <div className="userName">
+                  <a>Dandelion</a>
+                </div>
+                <div className="desc">hello</div>
+              </div>
+            </div>
+            {/* 2 */}
+            <div className="userCard">
+              <div className="avatarContainer">
+                <img src="avatar.png" className="" />
+              </div>
+              <div className="userNameAndDescContainer">
+                <div className="userName">
+                  <a>Dandelion</a>
+                </div>
+                <div className="desc">hello</div>
+              </div>
+            </div>
+            {/* 3 */}
+            <div className="userCard">
+              <div className="avatarContainer">
+                <img src="avatar.png" className="" />
+              </div>
+              <div className="userNameAndDescContainer">
+                <div className="userName">
+                  <a>Dandelion</a>
+                </div>
+                <div className="desc">hello</div>
+              </div>
             </div>
           </div>
         </div>
