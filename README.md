@@ -21,4 +21,6 @@ can do most job except for 2 mere points
 
 background-color: rgb(128, 128, 128,0.5);
 
-added overflow: scroll;     scrollbar-width:none; to userContactListContainer on Apr 20
+The userContactListContainer can scroll now.
+overflow: scroll;     scrollbar-width:none; 
+Apr 20
